@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 3</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+.header{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #000;
+	background-color:#06d6a0;
+   
+}
+
+.header h1{
+    text-align: center;
+    line-height: 100px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    border: 1px solid #000;
+	background-color:#003049
+
+}
+.footer h1{
+    text-align: center;
+    line-height: 100px;
+}
+main {
+    display: flex; 
+    padding-top: 55px; 
+    justify-content: space-between; 
+    margin-bottom: -20px;
+} 
+header img {
+    width: 100px; 
+    filter:invert(100%);
+}
+
+.left {
+    padding-right: 2.5em; 
+} 
+
+.right {
+    margin-top: 70px;
+    color: #0e0404;    
+}
+
+h1 {
+    font-size: 2.5em; 
+    font-family: 'Poppins';
+    padding-bottom: 20px; 
+}
+
+p {
+    line-height: 1.7;
+    opacity: .8;  
+}
+.p1 {
+    line-height: 1.7;
+    opacity: .8;  
+    text-align: center;
+    
+    
+}
+
+button {
+    padding: 15px 60px; 
+    margin-top: 30px; 
+    border-radius: 5rem;
+    border: 0; 
+    cursor: pointer; 
+    color: #674baf;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+
+button:hover {
+    color: #fff; 
+    background: hwb(300 4% 95%); 
+}
+.row {
+  display: flex;
+  
+}
+
+/* Create two equal columns that sits next to each other */
+.column_left {
+  flex: 20%;
+  padding: 10px;
+  height: 500px;
+  
+  
+}
+
+.column_right {
+  flex: 20%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+ 
+ 
+}
+
+
+.column {
+  float: left;
+  width: 22.22%;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.wrap{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0.0.0.0.6);
+    transition: 4s;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font: 1em sans-serif;
+    float: left;
+    margin: 10px;
+}
+.card:hover{
+    box-shadow:  0 8px 16px 0 rgba(0.0.0.0.6);
+}
+.container{
+    padding: 2px 16px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #06d6a0;
+}
+
+.topnav a {
+  float: right;
+  color: hsl(166, 48%, 95%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: left;
+  background-color: #06d6a0;
+  color: hsl(168, 26%, 96%);
+  font-size: 30px;
+}
+.topnav a.split:hover {
+    
+    background-color: hsl(164, 35%, 92%);
+    color: black;
+}
+  
+
+
+    
+
+
+
+</style>
+<body>
+    <div class="header">
+       
+        
+        <div class="topnav">
+ 
+            <a href="#Company Logo" class="split">Company Logo</a>
+            
+            <a class="Home" href="#Contact Us">Contact Us</a>
+            <a href="#About Us">About Us</a>
+            <a href="#Home">Home</a>
+          </div>
+        </div>
+        
+
+    <div class="row">
+        <div class="column_left" style="background-color:#023e8a;">
+    <main>
+        <section class="left">
+          <img src="hero-img.png" alt="Hero Illustration " style="width: 500px;">
+        </section>
+        <section class="right">
+          <h1>Digital Marketing</h1>
+          <p style="color: white;">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. </p>
+      <button>Register</button> 
+        </section>
+      </main> 
+            
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="column_right" style="background-color:#a2d2ff">
+<main>
+    <section class="right">
+        <div class="card">
+            <img src="a1a7abad-ea3a-4452-9c77-fdc0c656c9cd.jpeg" alt="Avatar" style="width:100%">
+        </section>
+        <section class="right">
+            <p style="color:red;">The service is referred to by different colloquialisms depending on the region. It may simply be referred to as a "text" in North America, the United Kingdom, Australia, New Zealand, and the Philippines; an "SMS" in most of mainland Europe; or an "MMS" or "SMS" in the Middle East, Africa, and Asia. The sender of a text message is commonly referred to as a "texter".</p>
+        
+           
+                <div class="wrap">
+                <div class="card">
+                    <img src="messi.jpg" alt="" style="width: 100%;">
+                    <div class="container">
+                        <h4><b>Lionel Messi</b></h4>
+                        <p><b>Footballer</b></p>
+                        <p><b>Argentina</b></p>
+                    </div>
+                </div>
+              
+            
+            
+                    <div class="card">
+                        <img src="messi.jpg" alt="" style="width: 100%;">
+                        <div class="container">
+                            <h4><b>Lionel Messi</b></h4>
+                            <p><b>Footballer</b></p>
+                            <p><b>Argentina</b></p>
+                        </div>
+                    </div>
+              
+                
+                        <div class="card">
+                            <img src="messi.jpg" alt="" style="width: 100%;">
+                            <div class="container">
+                                <h4><b>Lionel Messi</b></h4>
+                                <p><b>Footballer</b></p>
+                                <p><b>Argentina</b></p>
+                            </div>
+                        </div>
+                   
+                    
+                          
+              
+        </section>
+    </main> 
+</div>
+</div>
+</div>
+
+
+          
+  
+     
+
+      
+
+
+
+
+
+
+    <div class="footer">
+        <h1><b>Footer</b></h1>
+    </div>
+
+
+</body>
+</html>
+</body>
+</html>
